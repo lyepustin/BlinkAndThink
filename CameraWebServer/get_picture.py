@@ -2,8 +2,8 @@ import requests
 import os
 
 # Replace 'YOUR_BOT_TOKEN' with your actual Telegram bot token
-TELEGRAM_BOT_TOKEN = '6206414082:AAFif2-KE87B4AblIoCxH0ru_z0TKCMtK4Q'
-TELEGRAM_CHAT_ID = '-1001838649007'
+TELEGRAM_BOT_TOKEN = '***'
+TELEGRAM_CHAT_ID = '***'
 
 def download_and_send_image(url):
     response = requests.get(url)
